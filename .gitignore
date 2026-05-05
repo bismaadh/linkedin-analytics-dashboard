@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database (contains user data)
+*.db
+*.sqlite3
+
+# Data files (contain LinkedIn export data)
+data/*.csv
+data/*.xlsx
+data/*.xls
+!data/.gitkeep
+
+# Azure
+.azure/
+
+# Logs
+*.log
+
+# Exports
+*.numbers
